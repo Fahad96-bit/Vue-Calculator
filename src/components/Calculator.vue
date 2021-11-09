@@ -39,9 +39,9 @@ export default{
         action(n){
  
       if(!isNaN(n) || n === '.'){
-          console.log('n',n);
+      
         this.calculatorValue += n ;
-        console.log('calculatorValue',this.calculatorValue,typeof(this.calculatorValue));
+       
       }
 
       if(n === 'C'){
